@@ -5,7 +5,7 @@ typedef struct {
     int data;
 } Singleton;
 
-static Singleton* instance = NULL;
+Singleton* instance = NULL;
 
 Singleton* getSingletonInstance() {
     if (instance == NULL) {
